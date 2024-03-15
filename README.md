@@ -18,7 +18,12 @@ CREATE TABLE users (
   gender enum('M', 'F', 'O'),
   status tinyint(1)
 );
+```
 
+## Describe the columns of a table
+
+```bash
+DESCTIBE users;
 ```
 
 ## Add Data Into Tables using the INSERT Query
