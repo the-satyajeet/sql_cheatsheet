@@ -5,6 +5,21 @@
 CREATE DATABASE sample;
 use sample;
 ```
+## Create table with columns
+```bash
+CREATE TABLE users (
+  id int ,
+  name VARCHAR(100),
+  email VARCHAR(150),
+  password VARCHAR(100),
+  contact VARCHAR(15),
+  address text,
+  dob date,
+  gender enum('M', 'F', 'O'),
+  status tinyint(1)
+);
+
+```
 
 ## Add Data Into Tables using the INSERT Query
 
