@@ -23,7 +23,7 @@ CREATE TABLE users (
 ## Describe the columns of a table
 
 ```bash
-DESCTIBE users;
+DESCRIBE users;
 ```
 
 ## Add Data Into Tables using the INSERT Query
