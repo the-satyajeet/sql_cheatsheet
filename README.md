@@ -11,7 +11,7 @@ CREATE TABLE employees (
   id int ,
   name VARCHAR(100),
   email VARCHAR(150),
-  password VARCHAR(100),
+  pass VARCHAR(100),
   contact VARCHAR(15),
   address text,
   dob date,
@@ -23,6 +23,11 @@ CREATE TABLE employees (
 ## Change Table name
 ```bash
 ALTER TABLE employees RENAME TO users;
+```
+
+## Change column name
+```bash
+ALTER TABLE users CHANGE pass password VARCHAR(50);
 ```
 
 ## Describe the columns of a table
