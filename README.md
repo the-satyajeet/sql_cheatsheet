@@ -7,7 +7,7 @@ use sample;
 ```
 ## Create table with columns
 ```bash
-CREATE TABLE users (
+CREATE TABLE employees (
   id int ,
   name VARCHAR(100),
   email VARCHAR(150),
@@ -18,6 +18,11 @@ CREATE TABLE users (
   gender enum('M', 'F', 'O'),
   status tinyint(1)
 );
+```
+
+## Change Table name
+```bash
+ALTER TABLE employees RENAME TO users;
 ```
 
 ## Describe the columns of a table
